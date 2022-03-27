@@ -1,0 +1,25 @@
+{
+  "name": "esrc",
+  "version": "1.0.0",
+  "description": "Website for ESRC Game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "Sean McGinty <newfolderlocation@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dateformat": "^4.5.0",
+    "dotenv": "^11.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
+    "rotating-file-stream": "^3.0.2",
+    "util": "^0.12.4"
+  }
+}
